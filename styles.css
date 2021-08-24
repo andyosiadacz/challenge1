@@ -1,0 +1,70 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: repeat-x;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+
+.card {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 30px;
+  margin: 15% auto 15% auto;
+  padding-bottom: 40px;
+  width: 450px;
+}
+
+.hero{
+  background-image: url('images/illustration-hero.svg');
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 250px;
+
+}
+
+.text{
+  margin: 0 50px 0 50px;
+}
+
+.planBtn{
+  align-items: center;
+  background-color:  hsl(225, 100%, 94%);
+  border-radius: 15px;
+  display: grid;
+  grid-gap: 1rem;
+  padding:20px 40px 20px 40px;
+  margin:10px 40px 10px 40px;
+  line-height: 0.1;
+  text-align: left;
+}
+
+
+.icon{
+  grid-column: 1;
+}
+
+.planInfo{
+  grid-column: 2;
+}
+
+.changeLink{
+  grid-column: 3;
+  padding-left: 40px
+}
+
+
+.payBtn
+{
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  color: hsl(225, 100%, 94%);
+  margin: 20px 40px 20px 40px;
+  padding:20px 40px 20px 40px;
+  font-weight: 700;
+}
